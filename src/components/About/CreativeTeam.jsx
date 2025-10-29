@@ -1,4 +1,4 @@
-import founderImg from "../../assets/founder.png"; // ganti sesuai path gambar kamu
+import founderImg from "../../assets/Founder.png"; // ganti sesuai path gambar kamu
 
 export default function CreativeTeam() {
   return (
