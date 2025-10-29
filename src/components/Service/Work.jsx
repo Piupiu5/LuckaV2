@@ -2,7 +2,7 @@ import flowchart from "../../assets/flowchart.png";
 
 export default function Work() {
   return (
-    <section className="py-16 bg-white">
+    <section className="py-16 px-6 bg-white">
         <div className="max-w-4xl mx-auto">
       <div className="max-w-3xl">
       {/* Judul */}
@@ -12,7 +12,7 @@ export default function Work() {
 
       </div>
       </div>
-      {/* Kotak Oranye */}
+      
       <div className="flex justify-center mt-20">
   <img
     src={flowchart}

@@ -8,7 +8,7 @@ export default function DiscoverSection() {
       </h2>
 
       {/* Deskripsi */}
-      <p className="text-gray-700 max-w-xl mx-auto mb-10 text-sm">
+      <p className="text-gray-700 max-w-xl px-6 mx-auto mb-10 text-sm">
         Mari kenali lebih dekat dengan kami, karena kesuksesan digital selalu
         berawal dari cerita yang kuat
       </p>

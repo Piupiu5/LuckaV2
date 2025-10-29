@@ -1,6 +1,6 @@
 export default function Benefit() {
   return (
-    <section className=" bg-white md:px-20">
+    <section className=" bg-white  px-6 md:px-20">
     <div className="max-w-4xl mx-auto">
       <div className="max-w-3xl">
         {/* Judul */}

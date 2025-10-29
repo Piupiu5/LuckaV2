@@ -56,7 +56,7 @@ Pesan: ${message || "-"}
             placeholder="Nama/Anonim"
             value={formData.name}
             onChange={handleChange}
-            className="bg-orange-100 text-white placeholder-white font-medium p-4 rounded-md focus:outline-none"
+            className="bg-orange-100 text-black placeholder-gray font-medium p-4 rounded-md focus:outline-none"
           />
           <input
             type="text"
@@ -64,7 +64,7 @@ Pesan: ${message || "-"}
             placeholder="Telepon"
             value={formData.phone}
             onChange={handleChange}
-            className="bg-orange-100 text-white placeholder-white font-medium p-4 rounded-md focus:outline-none"
+            className="bg-orange-100 text-black placeholder-gray font-medium p-4 rounded-md focus:outline-none"
           />
         </div>
 
@@ -77,7 +77,7 @@ Pesan: ${message || "-"}
             value={formData.email}
             onChange={handleChange}
             required
-            className="bg-orange-100 text-white placeholder-white font-medium p-4 rounded-md focus:outline-none"
+            className="bg-orange-100 text-black placeholder-gray font-medium p-4 rounded-md focus:outline-none"
           />
           <input
             type="text"
@@ -85,7 +85,7 @@ Pesan: ${message || "-"}
             placeholder="Alamat"
             value={formData.address}
             onChange={handleChange}
-            className="bg-orange-100 text-white placeholder-white font-medium p-4 rounded-md focus:outline-none"
+            className="bg-orange-100 text-black placeholder-gray font-medium p-4 rounded-md focus:outline-none"
           />
         </div>
 
@@ -96,7 +96,7 @@ Pesan: ${message || "-"}
           value={formData.message}
           onChange={handleChange}
           rows="5"
-          className="bg-orange-100 text-white placeholder-white font-medium p-4 rounded-md focus:outline-none"
+          className="bg-orange-100 text-black placeholder-gray font-medium p-4 rounded-md focus:outline-none"
         ></textarea>
 
         {/* Tombol Kirim */}

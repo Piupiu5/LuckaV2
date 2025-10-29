@@ -11,7 +11,7 @@ export default function Hero() {
 
       {/* isi hero */}
       <div className="relative text-center z-10">
-        <h1 className="text-8xl font-bold mb-4">Your Partner in Digital Success</h1>
+        <h1 className="md:text-8xl text-6xl font-bold mb-4">Your Partner in Digital Success</h1>
         <p className="text-lg max-w-xl mx-auto">
           Bukan sekadar agency, tapi tim kreatif yang siap mengangkat brand Anda ke level berikutnya.
         </p>

@@ -25,7 +25,7 @@ const TestimonialSection = () => {
 
       {/* Icon quote di kanan atas */}
       <div className="absolute right-10 top-28 md:top-32 text-orange-500">
-        <Quote size={80} strokeWidth={2.5} />
+        <Quote size={50} strokeWidth={2.5} />
       </div>
 
       {/* Testimonial cards */}
@@ -48,7 +48,7 @@ const TestimonialSection = () => {
       {/* Tombol Selengkapnya */}
       
 
-<div className="mt-12 flex justify-end pr-10">
+<div className="mt-12 flex justify-center md:justify-end sm:justify-center pr-10">
   <Link
     to="/testimoni"
     className="flex items-center text-orange-500 font-semibold hover:underline"

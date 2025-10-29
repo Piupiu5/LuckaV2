@@ -52,7 +52,7 @@ const HowWeElevate = () => {
             >
               {/* Gambar kiri */}
               <div
-                className="m-4 sm:m-6 md:m-10 w-full md:w-56 h-48 sm:h-52 md:h-56 rounded-md flex-shrink-0"
+                className=" md:m-10 w-full md:w-56 h-48 sm:h-56 md:h-56 flex-shrink-0"
                 style={{
                   backgroundImage: `url(${item.image})`,
                   backgroundColor: item.color || "#F97316",
